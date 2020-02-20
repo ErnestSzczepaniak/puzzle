@@ -8,3 +8,5 @@ _sample text preview_
 ---|---
  s| s
  ww | d
+
+ try `renders` to enchance portability
