@@ -1,3 +1,4 @@
+# Cel projektu
 
 Celem zadania jest stworzenie aplikacji będącej autorską implementacją popularnej gry logicznej. Do jego realizacji zostaną wykorzystane następujące komponenty
 
@@ -29,7 +30,12 @@ Square | funkcjonalna | klasa reprezentująca konkretny obiekt (w przypadku proj
 Game | interfejsu | Klasa symbolizująca całość gry z punktu widzenia użytkownika. Będzie posiadała metody do inicjalizacji gry, reagowania na polecenia gracza (w tym wypadku będą to sygnały przekazywane do części logicznej poprzez strzałki na klawiaturze) oraz sprawdzania czy gra nie dobiegła już końca. Dodatkowo, klasa będzie posiadała moduł losowości (odpowiedzialny za losowe umiejscowienie pól podczas rozpoczynania gry) oraz moduł monitorujący (w celu zliczania ilości ruchów gracza oraz pomiaru czasu gry)
 Display | zobrazowania | klasa odpowiedzialna za zobrazowanie działania gry na ekranie komputera. Do jej implementacji zostanie wykorzystana biblioteka X11/Xlib, która jest wbudowana w system operacyjny Linux. Klasa będzie wrapperem stanowiącym zbiór metod wykorzystujących funkcję z biblioteki do zobrazowania w celu uproszczenia składni oraz zapewnienia funkcji niezbędnych do wykorzystania (np. rysuj tekts, rysuj linie, ustaw kolor itp...)
 
+# Instalacja i kompilowanie
 
+1. `git clone https://github.com/ErnestSzczepaniak/puzzle.git`
+2. `cd puzzle/`
+3. `make`
+4. `./puzzle.elf`
 
 
 
