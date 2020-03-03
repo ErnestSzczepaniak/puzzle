@@ -129,6 +129,8 @@ void Game::info()
 
     char buffer[64];
 
+    d_color(255, 255, 255);
+
     d_text(0, 20, "GG EZ!");
 
     snprintf(buffer, 64, "Moves = %d", _moves);
