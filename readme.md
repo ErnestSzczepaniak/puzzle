@@ -38,5 +38,12 @@ Display | zobrazowania | klasa odpowiedzialna za zobrazowanie działania gry na 
 4. `./puzzle.elf`
 
 
+# Generowanie i otworzenie dokumentacji
+1. `make doxy`
+1. `cd doxygen/html`
+1. `firefox index.html`
+
+
+
 
 
