@@ -21,7 +21,7 @@ int main(int argc, char * argv[])
 
     game.info();
 
-    while(1);
+    return 0;
 }
 
 // czwartek 8 
