@@ -61,7 +61,7 @@ void Item_square::clear()
 
 void Item_square::number(int value)
 {
-    _number = value;
+    if (value < 100) _number = value;
 }
 
 int Item_square::number()
