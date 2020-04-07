@@ -39,7 +39,6 @@ void d_open(int size_x, int size_y, const char * name)
 		if (e.type == MapNotify)
 			break;
 	}
-
 }
 
 void d_close()
